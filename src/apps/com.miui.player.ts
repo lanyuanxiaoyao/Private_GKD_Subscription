@@ -15,5 +15,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      name: '[弹窗] 免费体验高品质效果',
+      rules: [
+        {
+          matches: 'ViewGroup[desc^="关闭弹窗"]',
+          activityIds: 'com.tencent.qqmusiccommon.hybrid.HybridViewActivity',
+          snapshotUrls: 'https://i.gkd.li/i/22899655',
+        },
+      ],
+    },
   ],
 });
