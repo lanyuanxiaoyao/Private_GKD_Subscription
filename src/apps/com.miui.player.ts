@@ -1,7 +1,7 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.ct.client',
+  id: 'com.miui.player',
   name: '小米音乐',
   groups: [
     {
