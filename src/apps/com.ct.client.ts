@@ -6,7 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      name: '"关注流量使用情况"弹窗',
+      name: '[弹窗] 关注流量使用情况',
       rules: [
         {
           matches: 'ImageView[id="com.ct.client:id/iv_close"]',
