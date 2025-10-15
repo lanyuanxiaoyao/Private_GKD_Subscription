@@ -29,5 +29,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '[横幅] 菜鸟APP体验调研',
+      rules: [
+        {
+          matches: 'View[desc="菜鸟APP体验调研"] +n ImageView',
+          activityIds:
+            'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
+          snapshotUrls: 'https://i.gkd.li/i/22917057',
+        },
+      ],
+    },
   ],
 });
