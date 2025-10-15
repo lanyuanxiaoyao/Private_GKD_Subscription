@@ -6,11 +6,11 @@ export default defineGkdApp({
   groups: [
     {
       key: 100,
+      fastQuery: true,
       name: '[弹窗] 全屏广告',
       rules: [
         {
-          matches:
-            'ImageButton[id="com.gzrcb.mobilebank:id/img_advertisement_close"]',
+          matches: '[vid="img_advertisement_close"]',
           activityIds: 'com.gzrcb.mobilebank',
         },
       ],
