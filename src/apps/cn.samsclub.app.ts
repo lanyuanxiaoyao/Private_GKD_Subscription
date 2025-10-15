@@ -16,5 +16,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      fastQuery: true,
+      name: '[横幅] 新鲜事',
+      rules: [
+        {
+          matches: '[id="cn.samsclub.app:id/iv_bubble_close"]',
+          activityIds: '.ui.MainActivity',
+        },
+      ],
+    },
   ],
 });

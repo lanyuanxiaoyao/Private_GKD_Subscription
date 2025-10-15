@@ -15,5 +15,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 200,
+      enable: false,
+      fastQuery: true,
+      name: '[功能] 清空未读消息',
+      actionMaximum: 1,
+      rules: [
+        {
+          matches: '[id="com.jd.lib.message.feature:id/gq"]',
+          activityIds: '.MainFrameActivity',
+        },
+      ],
+    },
   ],
 });

@@ -40,6 +40,16 @@ export default defineGkdApp({
       ],
     },
     {
+      key: 4,
+      name: '[横幅] 体验蜂鸟跑腿',
+      rules: [
+        {
+          matches: 'View[desc="立即体验"] -n ImageView[width=58][height=58]',
+          activityIds: '.homepage.view.activity.HomePageActivity',
+        },
+      ],
+    },
+    {
       key: 100,
       name: '[弹窗] 超时享',
       rules: [
