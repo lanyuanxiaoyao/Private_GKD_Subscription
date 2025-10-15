@@ -17,5 +17,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      name: '[弹窗] 超时享',
+      rules: [
+        {
+          matches: 'Image[text="超时享"] + View > Image',
+          activityIds:
+            'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
+          snapshotUrls: 'https://i.gkd.li/i/22916794',
+        },
+      ],
+    },
   ],
 });
