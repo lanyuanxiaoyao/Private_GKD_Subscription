@@ -16,7 +16,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
+      key: 100,
       name: '[弹窗] 免费体验高品质效果',
       rules: [
         {
