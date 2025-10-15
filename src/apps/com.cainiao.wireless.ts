@@ -53,7 +53,9 @@ export default defineGkdApp({
     },
     {
       key: 200,
+      enable: false,
       name: '[功能] 消息一键已读',
+      actionMaximum: 1,
       rules: [
         {
           matches: 'TextView[text="一键已读"]',
